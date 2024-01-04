@@ -74,5 +74,6 @@ void push(binary_tree_t *node, levelorder_queue_t *head,
 		levelorder_queue_t **tail);
 void pop(levelorder_queue_t **head);
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
+binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 
 #endif /* end of _BINARY_TREES_H_ file */

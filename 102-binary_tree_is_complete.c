@@ -96,9 +96,7 @@ int binary_tree_is_complete(const binary_tree_t *tree)
 	unsigned char fl_g = 0;
 
 	if (tree == NULL)
-	{
 		return (0);
-	}
 
 	head = tail = create_node((binary_tree_t *)tree);
 	if (head == NULL)

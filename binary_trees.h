@@ -84,5 +84,6 @@ bst_t *bst_remove(bst_t *root, int value);
 bst_t *bst_remove_recursive(bst_t *root, bst_t *node, int value);
 bst_t *bst_delete(bst_t *root, bst_t *node);
 bst_t *inorder_successor(bst_t *root);
+bst_t *bst_min_value_node(bst_t *node);
 
 #endif /* end of _BINARY_TREES_H_ file */
